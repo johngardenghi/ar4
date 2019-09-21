@@ -8,9 +8,9 @@ This distribution includes Algencan 3.1.1.
 
 ## Compiling and running the code
 
-Consider $(AR4) the folder this README is located.
+Consider `$(AR4)` the root folder of this repository.
 
-1. Go to $(AR4) folder and type
+1. Go to `$(AR4)` folder and type
 ```
 make
 ```
@@ -33,10 +33,10 @@ include them, follow these steps:
 2. Obtain BLAS subroutine from Netlib
 [website](http://www.netlib.org/blas/).
 
-3. Copy the files in $(AR4)/algencan/sources/hsl folder:
+3. Copy the files in `$(AR4)/algencan/sources/hsl` folder:
 
    * From BLAS library: `dgemm.f`, `dgemv.f`, `dtpmv.f`, `dtpsv.f`,
-     `idamax.f', `lsame.f`, `xerbla.f`.
+     `idamax.f`, `lsame.f`, `xerbla.f`.
 
    * From HSL MA57 library: `hsl_ma57d.f90`, `hsl_zd11d.f90`,
      `ma57ad.f`, `mc21ad.f`, `mc34ad.f`, `mc47ad.f`, `mc59ad.f`,
